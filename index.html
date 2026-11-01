@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0a0b10">
+  <meta name="description" content="Confused">
+  <meta name="application-name" content="Confused">
+  <meta name="author" content="Confused">
+  <title>Confused</title>
+  <link rel="canonical" href="https://confused.is-a.dev/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Confused">
+  <meta property="og:title" content="Confused">
+  <meta property="og:description" content="Confused">
+  <meta property="og:url" content="https://confused.is-a.dev/">
+  <meta property="og:image" content="https://confused.is-a.dev/preview.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Confused">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Confused">
+  <meta name="twitter:description" content="Confused">
+  <meta name="twitter:image" content="https://confused.is-a.dev/preview.png">
+  <meta name="twitter:image:alt" content="Confused">
+  <link rel="icon" type="image/png" href="./icon.png">
+  <link rel="apple-touch-icon" href="./apple-touch-icon.png">
+  <link rel="manifest" href="./site.webmanifest">
+  <style>
+    :root {color-scheme:dark;--bg:#0a0b10;--ink:#f4f3fb;--muted:#adabc0;--stroke:#343044;--accent:#a99ef4}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;min-height:100vh;color:var(--ink);background:radial-gradient(ellipse 70% 45% at 50% 18%,#262037 0%,#11121b 60%,var(--bg) 100%);font:16px/1.55 Inter,ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;-webkit-font-smoothing:antialiased}
+    a{color:inherit}a:focus-visible{outline:2px solid #d3caff;outline-offset:5px;border-radius:4px}
+    .wrap{width:min(980px,calc(100% - 40px));margin:0 auto}.top{padding:27px 0;display:flex;align-items:center;justify-content:space-between}.brand{font-weight:760;letter-spacing:-.04em;text-decoration:none}.nav{font-size:.87rem;color:var(--muted);display:flex;gap:25px}.nav a{text-decoration:none}.nav a:hover,.project a:hover{color:var(--accent)}
+    .hero{min-height:61vh;display:flex;justify-content:center;flex-direction:column;align-items:center;text-align:center;padding:60px 0 70px}.eyebrow{font-size:.76rem;color:#c1b9ea;text-transform:uppercase;letter-spacing:.2em;font-weight:700}.hero h1{margin:16px 0 8px;font-size:clamp(4rem,13vw,9.2rem);letter-spacing:-.078em;line-height:1.06;text-shadow:0 12px 65px #8b7de229}.hero p{max-width:580px;margin:16px auto 0;color:#c2c0d0;font-size:clamp(1rem,2.2vw,1.16rem)}.hero a.cta{margin-top:32px;text-decoration:none;border:1px solid #605776;background:#ffffff0a;padding:11px 19px;border-radius:100px;font-size:.9rem;transition:background .2s}.hero a.cta:hover{background:#fff2}
+    section{padding:24px 0 65px}section h2{font-size:clamp(1.5rem,4vw,2rem);letter-spacing:-.04em;margin:0 0 15px}section>p{max-width:680px;color:var(--muted);margin:0}.divider{height:1px;background:linear-gradient(90deg,transparent,var(--stroke),transparent);margin:8px 0 50px}.cards{margin-top:25px;display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.project{border:1px solid var(--stroke);background:#ffffff08;border-radius:17px;padding:24px;min-height:184px}.project .tag{font-size:.73rem;text-transform:uppercase;letter-spacing:.08em;color:#c0b4e9}.project h3{font-size:1.05rem;letter-spacing:-.025em;margin:15px 0 8px}.project p{font-size:.88rem;color:var(--muted);margin:0}.project a{display:inline-block;margin-top:18px;font-size:.88rem;text-decoration:underline;text-decoration-color:#726b8d;text-underline-offset:5px}.foot{border-top:1px solid var(--stroke);margin-top:12px;padding:30px 0 44px;display:flex;justify-content:space-between;color:var(--muted);font-size:.85rem}.foot a{text-underline-offset:4px}
+    @media(max-width:700px){.cards{grid-template-columns:1fr}.hero{min-height:55vh}.top{padding:20px 0}.foot{gap:10px;flex-wrap:wrap}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+  </style>
+</head>
+<body>
+  <header class="top wrap"><a class="brand" href="#top">Confused</a><nav class="nav" aria-label="Main navigation"><a href="#about">About</a><a href="#projects">Projects</a><a href="https://github.com/Spanishskeleton" rel="me noreferrer">GitHub</a></nav></header>
+  <main id="top" class="wrap">
+    <div class="hero"><div class="eyebrow">Personal developer page</div><h1>Confused</h1><p>A space for software experiments, curious ideas, and projects in progress.</p><a class="cta" href="#projects">Explore my projects ↓</a></div>
+    <div class="divider" aria-hidden="true"></div>
+    <section id="about" aria-labelledby="about-title"><h2 id="about-title">About</h2><p>I'm Confused. I'm interested in web development, how software behaves, and building small experiments to learn how things work. This site is a home for my personal projects and research interests.</p></section>
+    <section id="projects" aria-labelledby="projects-title"><h2 id="projects-title">Projects & interests</h2><p>A few areas I'm exploring and building around.</p><div class="cards">
+      <article class="project"><span class="tag">Testing & research</span><h3>Discord Canary experiments</h3><p>Exploring client behavior, reproducing bugs, and learning how to document useful findings responsibly.</p></article>
+      <article class="project"><span class="tag">Web development</span><h3>Interactive web projects</h3><p>Experimenting with lightweight sites, simple interfaces, and tools that make information easier to explore.</p></article>
+      <article class="project"><span class="tag">Games & information</span><h3>Game news experiments</h3><p>Exploring ways to organize posts, updates, and media from community news sources in one place.</p></article>
+    </div></section>
+  </main>
+  <footer class="foot wrap"><span>© Confused · Personal developer website</span><span>Find me on <a href="https://github.com/Spanishskeleton" rel="me noreferrer">GitHub</a></span></footer>
+</body>
+</html>
